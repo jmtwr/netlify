@@ -73,7 +73,7 @@ export const useTranslate = () => {
 
     for (let i = 0; i < word.length; ++i) {
       // @ts-ignore
-      if (converter[word[i]] == undefined) {
+      if (converter[word[i]] === undefined) {
         answer += word[i];
       } else {
         // @ts-ignore
